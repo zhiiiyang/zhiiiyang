@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Zhi (pronounced as Z). After a PhD in biostatistics from USC, I am currently working as a biostatistician at NanoString Technologies in Seattle. I don't know you found my account but here are some of my favorite repos. 
+My name is Zhi (pronounced as Z). After receiving a PhD in biostatistics from USC, I am currently working as a biostatistician at NanoString Technologies in Seattle. I don't know you found my account but here are some of my favorite repos. 
 
 - :iphone: A Phone [Shiny app](https://github.com/zhiiiyang/OTworkout) to track your workout from GitHub. 
 
