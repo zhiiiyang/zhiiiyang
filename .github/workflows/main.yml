@@ -14,9 +14,9 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - name: Install Package Dependencies
         run: |-
-          Rscript -e "install.packages('devtools')"
-          Rscript -e "devtools::install_github("gadenbuie/tweetrmd")"
-          Rscript -e "install.packages("rtweet")"
+          Rscript -e "install.packages('remotes')"
+          Rscript -e "remotes::install_github('gadenbuie/tweetrmd')"
+          Rscript -e "install.packages('rtweet')"
       - name: Run script
         run: |-
           Rscript -e "source('script.R')"
