@@ -18,6 +18,11 @@ jobs:
           Rscript -e "remotes::install_github('gadenbuie/tweetrmd')"
           Rscript -e "install.packages('rtweet')"
       - name: Run script
+        env:
+          ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
         run: |-
           Rscript -e "source('script.R')"
       - name: Commit results
