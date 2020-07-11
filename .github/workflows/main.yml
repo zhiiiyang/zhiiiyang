@@ -1,8 +1,10 @@
 name: Show last tweet
 
 on:
+  push:
+    branches: [ master ]
   schedule:
-    - cron:  '30 * * * *'
+    - cron:  '40 * * * *'
       
 jobs:
   build:
