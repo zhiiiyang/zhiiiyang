@@ -1,8 +1,8 @@
 library(tweetrmd)
 library(rtweet)
 
-epitwitter_token <- function() {
-  rtweet::create_token(
+lasttweet_token <- function() {
+  create_token(
     "rtweet_tokens_zy",
     consumer_key = Sys.getenv("CONSUMER_KEY"),
     consumer_secret = Sys.getenv("CONSUMER_SECRET"),
@@ -13,7 +13,7 @@ epitwitter_token <- function() {
 }
 
 handle <- "zhiiiyang"
-recent_tweets <- get_timeline(handle, n = 1)
+recent_tweets <- get_timeline(handle, n = 1, token = lasttweet_token())
 
 tmpimg <- "tweet.png"
 tweet_screenshot(
