@@ -1,6 +1,6 @@
 My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights of my recent projects. 
 
-<div style="padding-left: 50px;" align="left">
+<div style="padding-left: 50px;">
 
 - :iphone: A Phone Shiny app [OTworkout](https://github.com/zhiiiyang/OTworkout) to track your workout from GitHub. 
 - :robot: A Twitter bot [mutsignatures](https://github.com/zhiiiyang/mutSignature_Pubmed_bot) using Python and AWS Lambda. 
