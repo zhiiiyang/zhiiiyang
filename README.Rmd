@@ -5,6 +5,7 @@ always_allow_html: true
 ---
 
 ```{r echo = FALSE}
-tweetrmd::include_tweet("https://twitter.com/zhiiiyang/status/1281846464893775873")
+library(tweetrmd)
+tweet_screenshot(tweet_url("zhiiiyang", "1281846464893775873"))
 ```
 
