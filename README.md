@@ -1,15 +1,31 @@
-### Hi there 👋
+Check out my latest tweet\!
+================
 
-My name is Zhi (pronounced as Z). After receiving a PhD in biostatistics from USC, I am currently working as a biostatistician at NanoString Technologies in Seattle. I don't know you found my account but here are some of my favorite repos. 
+This project’s main contents is located in the project’s
+[Wiki](https://github.com/USCbiostats/CodingStandards/wiki):
 
-- :iphone: A Phone [Shiny app](https://github.com/zhiiiyang/OTworkout) to track your workout from GitHub. 
+``` r
+tweetrmd::include_tweet("https://twitter.com/zhiiiyang/status/1281846464893775873")
+```
 
-- :robot: A Twitter bot [mutsignatures](https://github.com/zhiiiyang/mutSignature_Pubmed_bot) using Python and AWS Lambda. 
+<!--html_preserve-->
 
-- :bar_chart: #TidyTuesday Data Visualization [Gallery](https://github.com/zhiiiyang/tidytuesday). 
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light">
 
-- 📦 Two Bioconductor packages: [HiLDA](https://github.com/USCbiostats/HiLDA) and [selectKSigs](https://github.com/USCbiostats/selectKSigs).
+<p lang="en" dir="ltr">
 
-- :speech_balloon: I am pretty active on Twitter ([@zhiiiyang](https://twitter.com/zhiiiyang)) or you can send me an email at zyang895@gmail.com. 
+length(p$layers) stores the number of plots in the ggplot object
+returned by cowplot::plot\_grid in case someone finds it useful.
+<br><br>Alright, here is a trivial scenario: when you need to automate
+your figure saving without manually calibrating the height every time.
+<a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">\#rstats</a>
 
-- :necktie: You can view my professional profile on [LinkedIn](https://www.linkedin.com/in/zhiiiyang/) or know more about myself and other projects on my [personal website](https://zhiyang.netlify.app/).
+</p>
+
+— Zhi Yang, PhD (@zhiiiyang)
+<a href="https://twitter.com/zhiiiyang/status/1281846464893775873?ref_src=twsrc%5Etfw">July
+11, 2020</a>
+
+</blockquote>
+
+<!--/html_preserve-->
