@@ -4,7 +4,7 @@ My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights
 - :robot: A Twitter bot [mutsignatures](https://github.com/zhiiiyang/mutSignature_Pubmed_bot) using Python and AWS Lambda. 
 - :bar_chart: #TidyTuesday Data Visualization [Gallery](https://github.com/zhiiiyang/tidytuesday). 
 - 📦 Two Bioconductor packages: [HiLDA](https://github.com/USCbiostats/HiLDA) and [selectKSigs](https://github.com/USCbiostats/selectKSigs).
-- :point_down: You're viewing my lastest tweet.   
+- :arrow_lower_right: You're viewing my lastest tweet. :point_down:   
 
 <div align="center">
   
