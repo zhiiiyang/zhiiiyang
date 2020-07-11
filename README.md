@@ -1,6 +1,5 @@
 My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights of my recent projects. 
 
-<div style="padding-left: 50px;">
 
 - :iphone: A Phone Shiny app [OTworkout](https://github.com/zhiiiyang/OTworkout) to track your workout from GitHub. 
 - :robot: A Twitter bot [mutsignatures](https://github.com/zhiiiyang/mutSignature_Pubmed_bot) using Python and AWS Lambda. 
@@ -8,7 +7,8 @@ My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights
 - 📦 Two Bioconductor packages: [HiLDA](https://github.com/USCbiostats/HiLDA) and [selectKSigs](https://github.com/USCbiostats/selectKSigs).
 - :point_down: You're viewing my lastest tweet deployed on [GitHub actions](https://github.com/zhiiiyang/zhiiiyang).  
 
-  
+<div align="middle">
+ 
 <img src="https://github.com/zhiiiyang/zhiiiyang/blob/master/tweet.png" width="600">    
 
 [Follow me on Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Connect me on LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Check out my website][Website] :link:  
