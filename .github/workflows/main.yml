@@ -1,0 +1,25 @@
+name: Show last tweet
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron:  '0 * * * *'
+      
+jobs:
+  build:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@v1
+      - name: Install Package Dependencies
+        run: |-
+          Rscript -e "install.packages('remotes')"
+          Rscript -e "remotes::install_deps(dependencies = TRUE)"
+      - name: Run script
+        run: |-
+          Rscript -e "source('script.R')"
+      - name: Commit results
+        run: |
+          git commit -m "Update the latest tweet"
+          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
