@@ -2,6 +2,8 @@
 
 [Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
 
+<img src="https://github.com/zhiiiyang/zhiiiyang/blob/master/tweet.png" width="500">
+
 </div>
 
 <!--
@@ -13,4 +15,3 @@ Quick Link
 [GitHub]:https://github.com/zhiiiyang
 [Website]:https://zhiyang.netlify.app/
 
-<img src="https://github.com/zhiiiyang/zhiiiyang/blob/master/tweet.png" width="500">
