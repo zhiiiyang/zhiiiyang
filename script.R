@@ -4,10 +4,10 @@ library(rtweet)
 epitwitter_token <- function() {
   rtweet::create_token(
     "rtweet_tokens_zy",
-    consumer_key = Sys.getenv("consumer_key"),
-    consumer_secret = Sys.getenv("consumer_secret"),
-    access_token = Sys.getenv("access_token"),
-    access_secret = Sys.getenv("access_secret"),
+    consumer_key = Sys.getenv("CONSUMER_KEY"),
+    consumer_secret = Sys.getenv("CONSUMER_SECRET"),
+    access_token = Sys.getenv("ACCESS_TOKEN"),
+    access_secret = Sys.getenv("ACCESS_SECRET"),
     set_renv = FALSE
   )
 }
