@@ -28,5 +28,6 @@ jobs:
           Rscript -e "source('script.R')"
       - name: Commit results
         run: |
+          git add -A
           git commit -m "Update the latest tweet"
           git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
