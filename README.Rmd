@@ -4,9 +4,7 @@ output: rmarkdown::github_document
 always_allow_html: true
 ---
 
-This project's main contents is located in the project's [Wiki](https://github.com/USCbiostats/CodingStandards/wiki):
-
-```{r}
+```{r echo = FALSE}
 tweetrmd::include_tweet("https://twitter.com/zhiiiyang/status/1281846464893775873")
 ```
 

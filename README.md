@@ -1,13 +1,6 @@
 Check out my latest tweet\!
 ================
 
-This project’s main contents is located in the project’s
-[Wiki](https://github.com/USCbiostats/CodingStandards/wiki):
-
-``` r
-tweetrmd::include_tweet("https://twitter.com/zhiiiyang/status/1281846464893775873")
-```
-
 <!--html_preserve-->
 
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light">
