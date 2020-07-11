@@ -8,7 +8,8 @@ My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights
 
 <div align="left">
   
-<img src="https://github.com/zhiiiyang/zhiiiyang/blob/master/tweet.png" width="550">   
+<img src="https://github.com/zhiiiyang/zhiiiyang/blob/master/tweet.png" width="550">    
+
 [Follow me on Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Connect me on LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Check out my website][Website] :link:  
 
 </div>
