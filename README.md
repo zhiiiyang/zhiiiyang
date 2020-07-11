@@ -1,4 +1,4 @@
 Check out my latest tweet\!
 ================
 
-![](test.png)
+![](https://github.com/zhiiiyang/zhiiiyang/blob/master/test.png)
