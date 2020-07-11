@@ -6,7 +6,7 @@ My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights
 - 📦 Two Bioconductor packages: [HiLDA](https://github.com/USCbiostats/HiLDA) and [selectKSigs](https://github.com/USCbiostats/selectKSigs).
 - :point_down: You're viewing my lastest tweet.   
 
-<div align="left">
+<div align="center">
   
 <img src="https://github.com/zhiiiyang/zhiiiyang/blob/master/tweet.png" width="550">    
 
