@@ -15,8 +15,8 @@ jobs:
       - name: Install Package Dependencies
         run: |-
           Rscript -e "install.packages('remotes')"
-          Rscript -e "remotes::install_github('gadenbuie/tweetrmd', auth_token = "${{secrets.GITHUB_TOKEN}}")"
-          Rscript -e "remotes::install_github('rstudio/webshot2', auth_token = "${{secrets.GITHUB_TOKEN}}")"
+          Rscript -e "remotes::install_github('gadenbuie/tweetrmd', auth_token = "${{secrets.TWEET_PAT}}")"
+          Rscript -e "remotes::install_github('rstudio/webshot2', auth_token = "${{secrets.TWEET_PAT}}")"
           Rscript -e "install.packages('rtweet')"
       - name: Run script
         env:
