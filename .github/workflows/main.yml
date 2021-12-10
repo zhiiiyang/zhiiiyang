@@ -24,7 +24,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
-          GITHUB_PAT: ${{secrets.tweet_pat}}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |-
           Rscript -e "source('script.R')"
       - name: Commit results
