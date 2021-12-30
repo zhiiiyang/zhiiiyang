@@ -4,7 +4,7 @@ My name is Zhi (pronounced as Z). Welcome to my GitHub page! Here are highlights
 - :iphone: A Phone Shiny app [OTworkout](https://github.com/zhiiiyang/OTworkout) to track your workout from GitHub. 
 - :robot: A Twitter bot [mutsignatures](https://github.com/zhiiiyang/mutSignature_Pubmed_bot) using Python and AWS Lambda. 
 - :bar_chart: #TidyTuesday Data Visualization [Gallery](https://github.com/zhiiiyang/tidytuesday). 
-- 📦 Four Bioconductor packages: [HiLDA](https://github.com/USCbiostats/HiLDA), [selectKSigs](https://github.com/USCbiostats/selectKSigs), [NanoStringNCTools](https://github.com/Nanostring-Biostats/NanoStringNCTools) and [GeomxTools](https://github.com/Nanostring-Biostats/GeomxTools). 
+- 📦 Four Bioconductor packages: [GeoDiff](https://bioconductor.unipi.it/packages/3.15/bioc/html/GeoDiff.html), [HiLDA](https://github.com/USCbiostats/HiLDA), [selectKSigs](https://github.com/USCbiostats/selectKSigs), [NanoStringNCTools](https://github.com/Nanostring-Biostats/NanoStringNCTools) and [GeomxTools](https://github.com/Nanostring-Biostats/GeomxTools). 
 - :point_down: You're viewing my lastest tweet deployed on [GitHub actions](https://github.com/zhiiiyang/zhiiiyang).  
 
 <div align="middle">
