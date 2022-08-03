@@ -2,10 +2,9 @@ library(tweetrmd)
 library(rtweet)
 
 lasttweet_token <- function() {
-  create_token(
-    "rtweet_tokens_zy",
-    consumer_key = Sys.getenv("CONSUMER_KEY"),
-    consumer_secret = Sys.getenv("CONSUMER_SECRET"),
+  rtweet_bot(
+    api_key = Sys.getenv("CONSUMER_KEY"),
+    api_secret = Sys.getenv("CONSUMER_SECRET"),
     access_token = Sys.getenv("ACCESS_TOKEN"),
     access_secret = Sys.getenv("ACCESS_SECRET"),
     set_renv = FALSE
