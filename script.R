@@ -6,8 +6,7 @@ lasttweet_token <- function() {
     api_key = Sys.getenv("CONSUMER_KEY"),
     api_secret = Sys.getenv("CONSUMER_SECRET"),
     access_token = Sys.getenv("ACCESS_TOKEN"),
-    access_secret = Sys.getenv("ACCESS_SECRET"),
-    set_renv = FALSE
+    access_secret = Sys.getenv("ACCESS_SECRET")
   )
 }
 
