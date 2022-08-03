@@ -1,15 +1,17 @@
 library(tweetrmd)
 library(rtweet)
 
-rtweet_bot(
-  api_key = Sys.getenv("CONSUMER_KEY"),
-  api_secret = Sys.getenv("CONSUMER_SECRET"),
-  access_token = Sys.getenv("ACCESS_TOKEN"),
-  access_secret = Sys.getenv("ACCESS_SECRET")
-)
+lasttweet_token <- function(){
+  rtweet_bot(
+    api_key = Sys.getenv("CONSUMER_KEY"),
+    api_secret = Sys.getenv("CONSUMER_SECRET"),
+    access_token = Sys.getenv("ACCESS_TOKEN"),
+    access_secret = Sys.getenv("ACCESS_SECRET")
+  )
+}
 
 handle <- "zhiiiyang"
-recent_tweets <- get_timeline(handle, n = 1)
+recent_tweets <- get_timeline(handle, n = 1, token = lasttweet_token())
 
 tmpimg <- "tweet.png"
 tweet_screenshot(
